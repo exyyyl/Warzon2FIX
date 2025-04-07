@@ -1,4 +1,4 @@
- # WZ_FIX Utility
+# WZ_FIX Utility
 
 ## Русский 🇷🇺
 
@@ -12,20 +12,19 @@ WZ_FIX - это утилита, разработанная для игроков
 - Требует прав администратора
 
 ### Использование
-1. Запустите WZ_FIX_FIXED.bat от имени администратора (используйте исправленную версию!)
+1. Запустите WZ_FIX.bat от имени администратора
 2. Утилита автоматически запустит игру и свернется
 3. После завершения игры нажмите ENTER в окне утилиты для восстановления сервисов
 
 ### Важно
 - Утилита работает только при запуске с правами администратора
-- **ВНИМАНИЕ!** Оригинальная версия WZ_FIX.bat содержит ошибку, которая может вызвать постоянную загрузку CPU и спам ошибок в консоли. Всегда используйте исправленную версию WZ_FIX_FIXED.bat.
 
 ### Исправление проблем
 Если у вас возникает ошибка: `"C:\Users\<username>\AppData\Local\Temp\wz_fix_cleanup.bat" не является внутренней или внешней командой, исполняемой программой или пакетным файлом`, выполните следующие шаги:
 
 1. Откройте командную строку от имени администратора
 2. Выполните команду: `reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun /f`
-3. После этого используйте исправленную версию WZ_FIX_FIXED.bat
+3. После этого используйте WZ_FIX.bat
 
 ---
 
@@ -41,17 +40,16 @@ WZ_FIX is a utility designed for Call of Duty: Warzone players that temporarily 
 - Requires administrator privileges
 
 ### Usage
-1. Run WZ_FIX_FIXED.bat as administrator (use the fixed version!)
+1. Run WZ_FIX.bat as administrator
 2. The utility will automatically launch the game and minimize itself
 3. After finishing the game, press ENTER in the utility window to restore services
 
 ### Important
 - The utility only works when run with administrator privileges
-- **WARNING!** The original WZ_FIX.bat contains a bug that can cause constant CPU load and error spam in the console. Always use the fixed version WZ_FIX_FIXED.bat.
 
 ### Troubleshooting
 If you encounter the error: `"C:\Users\<username>\AppData\Local\Temp\wz_fix_cleanup.bat" is not recognized as an internal or external command, operable program or batch file`, follow these steps:
 
 1. Open command prompt as administrator
 2. Execute the command: `reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun /f`
-3. After that, use the fixed version WZ_FIX_FIXED.bat
+3. After that, use WZ_FIX.bat
